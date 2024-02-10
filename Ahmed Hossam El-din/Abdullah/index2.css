@@ -1,0 +1,181 @@
+.navbarcss {
+  background-color: #131921;
+  width: 100%; /* Set width once */
+  height: 80px;
+  color: #fff;
+}
+
+.navbarcss img {
+  width: 100px;
+}
+
+.navbarcss a:hover {
+  border: 2px white solid;
+}
+
+.searchbtn {
+  padding: 5px;
+  width: 50px;
+  height: 45px;
+  background-color: #f3a847;
+  color: black;
+  font-size: 14px;
+  border-radius: 0 5px 5px 0; /* Corrected property name */
+}
+
+#inputsearch {
+  width: 100%;
+  padding: 7px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+#select {
+  background-color: #6e6e6e;
+  padding: 0px 0px 0px 5px;
+}
+
+.secnavbar {
+  font-size: 14px;
+  background-color: #232f3e;
+  height: 35px;
+}
+
+.thirdnavbar {
+  background-color: #fafafa;
+  font-size: 12px;
+  color: #333333;
+  border-bottom: 1px solid black;
+}
+
+.thirdnavbar a:hover {
+  color: red;
+  border-bottom: 1px solid red;
+}
+
+.linkBarDiv {
+  font-weight: 400;
+}
+.linkBarDiv a:hover {
+  color: #0082a4;
+  border-bottom: 1px solid #0082a4;
+}
+
+.imgs img {
+  margin-top: 40px; /* Keep this value if needed */
+  width: 800px; /* Keep this value if needed */
+  height: auto; /* Keep this value if needed */
+  max-width: 100%; /* Keep this value if needed */
+}
+
+/* Reduce the gap between columns */
+.row-cols-1 > .col,
+.row-cols-md-2 > .col {
+  padding: 0.5rem; /* Adjust this value to reduce the gap */
+}
+
+.trendingNow {
+  margin-top: 15px;
+}
+
+.trendingNow h2 {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  border-bottom: 2px solid #a59096;
+}
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.trendingNow img {
+  width: 150px;
+  height: 150px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.shop-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.shop-link img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thecenter {
+  margin-top: 35px;
+  padding: 50px;
+  background-color: grey;
+  width: 70%;
+  margin: 0 auto;
+}
+.thecenter a {
+  color: black;
+}
+
+.linkBarDiv {
+  height: 20px;
+}
+.linkBarDiv a {
+  color: grey;
+  margin: 10px;
+  padding: 20px;
+}
+
+.linkBarDiv a:hover {
+  color: #a59096;
+  border-bottom: 1px solid #a59096;
+}
+.linkBarDiv .brand {
+  font-size: 2rem;
+}
+.linktolearn {
+  margin-top: 30px;
+}
+
+/* Footer */
+.footer-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #37475a;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  height: 60px;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+  background: #232f3e;
+}
+
+.footer-items h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 20px 0 10px 0;
+}
+
+.footer-items ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.footer-items li a {
+  color: #ddd;
+  font-size: 0.875rem;
+}
+
+.footer-items li a:hover {
+  text-decoration: underline;
+}
